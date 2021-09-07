@@ -1,0 +1,144 @@
+@media (max-width: 1200px){
+    .header{
+        padding: 15px;
+        &__phone {
+            font-size: 16px;  
+        }
+        &__logo{
+            img{
+                width: 90%;
+            }
+        }
+    }
+    
+    .promo{
+        min-height: 600px;
+        padding: 21px 10px 93px 0px;
+        &__header{
+            font-size: 40px;
+        }
+        &__subheader{
+            font-size: 22px;
+        }
+        &__icon{
+            width: 100px;
+        }
+        &__link{
+            font-size: 14px;
+        }
+    }
+
+    .button{
+        &_main{
+            width: 280px;
+            font-size: 15px;
+        }
+    }
+    
+    .title {
+        font-size: 28px;
+    }
+    
+    .advanteges{
+        min-height: 460px;
+        &__item {
+            max-width: 258px;
+        }
+    }
+    
+    .consultation {
+        padding: 100px 0px 92px 30px;
+    }
+
+    .feed-form {
+        width: 290px;
+    }
+
+    .carousel {
+        &__inner {
+            width: 70%;
+            img {
+                width: 100%;
+            }
+            
+        }
+    }
+
+    .catalog {
+        &__tabs {
+            margin-top: 60px;
+        }
+        &__tab {
+            width: 210px;
+            height: 48px;
+            font-size: 16px;
+            line-height: 44px;
+        }
+    }
+
+}
+
+@media (max-width: 991.5px){
+    .promo{
+        padding: 21px 20px 93px 0;
+        &__header{
+            font-size: 36px;
+            line-height: 36px;
+        }
+        &__subheader{
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__icon{
+            width: 90%;
+            font-size: 13px;
+        }
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .button {
+        &_main{
+            width: 260px;
+            font-size: 14px;
+        }
+        &_submit{
+            
+            font-size: 15px;
+        }
+    }
+
+    .advanteges {
+        &__subtitle{
+            margin-top: 28px;
+            font-size: 16px;
+        }
+    }
+
+    .catalog {
+        &__content{
+            justify-content: space-evenly;
+        }
+    }
+
+}
+
+@media (max-width: 767px){
+    .catalog{
+        &__content{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 575px){
+    .catalog{
+        &__content{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
